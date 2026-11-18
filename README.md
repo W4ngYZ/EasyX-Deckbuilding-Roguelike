@@ -46,11 +46,6 @@ bin\game.exe [种子短码]
 - 命令行带种子短码（如 `8T7Wy0VBdW7`）可复现同一局；不带则随机。
 - `src/cli_test.cpp` 编译出的 `bin/cli_test.exe` 为命令行游戏程序。
 
-## 调试
-
-VS Code 中 F5 使用 `EasyX Debug (MinGW64)`（gdb），先自动执行构建任务再启动
-`bin/<当前文件名>.exe`。
-
 ## 约定
 
 - 逻辑层（`src/hpps/`）禁止引入图形库；GUI 不消耗任何逻辑随机数。
@@ -64,5 +59,6 @@ AI was used for:
 - Code generation and implementation suggestions.
 - Debugging.
 - Documentation.
-- Asset generation.  
+- Asset generation.
+
 AI Tools: TraeCode (DeepSeek v4.1 flash), ChatGPT
