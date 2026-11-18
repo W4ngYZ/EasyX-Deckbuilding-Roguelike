@@ -1,0 +1,50 @@
+// 内嵌资源清单：windres 编译为 build/resource.o 后链入 exe。
+// 文件本体存放在 res/assets/ 下，路径相对仓库根目录（构建脚本以仓库根为 cwd）。
+#include "resource.h"
+
+// ---------- 字体 ----------
+IDR_FONT_MINECRAFT  RCDATA "res/assets/fonts/minecraft_ae.ttf"
+
+// ---------- 背景 ----------
+IDR_BG_MENU         RCDATA "res/assets/bg/menu.png"
+IDR_BG_MAP          RCDATA "res/assets/bg/map.png"
+IDR_BG_FAIL         RCDATA "res/assets/bg/fail.png"
+IDR_BG_SUCCESS      RCDATA "res/assets/bg/success.png"
+IDR_BG_BATTLE1      RCDATA "res/assets/bg/battle1.png"
+IDR_BG_BATTLE2      RCDATA "res/assets/bg/battle2.png"
+IDR_BG_BATTLE3      RCDATA "res/assets/bg/battle3.png"
+IDR_BG_BATTLE4      RCDATA "res/assets/bg/battle4.png"
+IDR_BG_BATTLE5      RCDATA "res/assets/bg/battle5.png"
+IDR_BG_BATTLE6      RCDATA "res/assets/bg/battle6.png"
+
+// ---------- 玩家 ----------
+IDR_PLAYER_FIGHTER  RCDATA "res/assets/player/fighter.png"
+
+// ---------- 敌人 ----------
+IDR_EN_LAGAVULIN            RCDATA "res/assets/enemies/乐加维林.png"
+IDR_EN_HEXAGHOST            RCDATA "res/assets/enemies/六火亡魂.png"
+IDR_EN_LOOTER_ASSASSIN      RCDATA "res/assets/enemies/劫掠者刺客.png"
+IDR_EN_LOOTER_CROSSBOW      RCDATA "res/assets/enemies/劫掠者弩手.png"
+IDR_EN_LOOTER_AXE           RCDATA "res/assets/enemies/劫掠者斧手.png"
+IDR_EN_LOOTER_MUGGER        RCDATA "res/assets/enemies/劫掠者暴徒.png"
+IDR_EN_LOOTER_TRACKER       RCDATA "res/assets/enemies/劫掠者追踪手.png"
+IDR_EN_SLIME_BOSS           RCDATA "res/assets/enemies/史莱姆老大.png"
+IDR_EN_SENTRY               RCDATA "res/assets/enemies/哨卫.png"
+IDR_EN_GREMLIN_NOB          RCDATA "res/assets/enemies/地精大块头.png"
+IDR_EN_JAW_WORM             RCDATA "res/assets/enemies/大颚虫.png"
+IDR_EN_GUARDIAN             RCDATA "res/assets/enemies/守护者.png"
+IDR_EN_SPIKED_SLIME_M       RCDATA "res/assets/enemies/尖刺史莱姆（中）.png"
+IDR_EN_SPIKED_SLIME_L       RCDATA "res/assets/enemies/尖刺史莱姆（大）.png"
+IDR_EN_SPIKED_SLIME_S       RCDATA "res/assets/enemies/尖刺史莱姆（小）.png"
+IDR_EN_LOOTER               RCDATA "res/assets/enemies/抢劫的.png"
+IDR_EN_MUGGER               RCDATA "res/assets/enemies/暴徒.png"
+IDR_EN_FUNGI_BEAST          RCDATA "res/assets/enemies/真菌兽.png"
+IDR_EN_SLAVER_RED           RCDATA "res/assets/enemies/红奴隶商人.png"
+IDR_EN_RED_LOUSE            RCDATA "res/assets/enemies/红虱虫.png"
+IDR_EN_GREEN_LOUSE          RCDATA "res/assets/enemies/绿虱虫.png"
+IDR_EN_SLAVER_BLUE          RCDATA "res/assets/enemies/蓝奴隶商人.png"
+IDR_EN_CULTIST              RCDATA "res/assets/enemies/邪教徒.png"
+IDR_EN_ACID_SLIME_M         RCDATA "res/assets/enemies/酸液史莱姆（中）.png"
+IDR_EN_ACID_SLIME_L         RCDATA "res/assets/enemies/酸液史莱姆（大）.png"
+IDR_EN_ACID_SLIME_S         RCDATA "res/assets/enemies/酸液史莱姆（小）.png"
+IDR_EN_FLY_FUNGUS           RCDATA "res/assets/enemies/飞蝇菌子.png"
