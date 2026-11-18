@@ -58,10 +58,11 @@ VS Code 中 F5 使用 `EasyX Debug (MinGW64)`（gdb），先自动执行构建�
   在 `res/resource.h` + `res/resource.rc` 登记后重新构建即可。
 
 ## AI-Assisted Development
+
 AI was used for:
 - Technical research and architectural discussions.
 - Code generation and implementation suggestions.
 - Debugging.
 - Documentation.
-- Asset generation.
+- Asset generation.  
 AI Tools: TraeCode (DeepSeek v4.1 flash), ChatGPT
